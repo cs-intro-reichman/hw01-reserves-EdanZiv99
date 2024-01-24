@@ -7,7 +7,7 @@ public class Coins {
     int totalCent = Integer.parseInt (args[0]);
 	int quaters = totalCent / 25; 
 	int reminderCents = totalCent % 25; 
-	System.out.println("Use " + quaters + " quaters and " + reminderCents + " cents"); 
+	System.out.println("Use " + quarters + " quaters and " + reminderCents + " cents"); 
 
 	}
 }
